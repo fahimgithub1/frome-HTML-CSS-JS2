@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div-fa{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.login-img{
+    background-color: rgb(224 224 224);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-img img{
+    width: 90%;
+}
+
+.login-body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f5f5;
+}
+
+.login-img-fa{
+    width: 200px;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+}
+
+.login {
+    width: 400px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0px 1px 10px rgb(204, 204, 204);
+    padding-bottom: 3rem;
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-fa{
+    background-color: rgb(41, 145, 214);
+    color: white;
+}
+
+.btn-fa:hover{
+    background-color: rgb(12, 77, 121);
+    color: white;
+}
+
+.remember-fa{
+    font-size: 16px;
+    margin-top: -.2rem;
+}
+
+.loin-a-fa{
+    font-size: 16px;
+    color: rgb(83, 83, 83);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.loin-a-fa:hover{
+    text-decoration: underline;
+}
+
+.loinotp-a-fa{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: .6rem;
+}
+
+.singin-a-fa{
+    display: block;
+    margin-top: 2rem;
+}
+
+.sin-bt-fa{
+    background-color: rgb(5, 103, 168);
+}
+
+.phonenumber{
+    width: 100%;
+    display: flex;
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 5px;
+}
+
+.phonenumber span{
+    width: 60px;
+    text-align: center;
+    border-right: 1px solid rgb(82, 82, 82);
+}
+
+.phonenumber input{
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .login-img{
+        height: 70vh;
+    }
+    
+    .login-body {
+        height: 70vh;
+    }
+
+    .widthforsmal-fa{
+        width: 100% !important;
+    }
+}
