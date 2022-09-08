@@ -10,10 +10,10 @@
     background-color: rgb(224 224 224);
 }
 
-/* .row-panon-fa{
+.row-panon-fa{
     margin: 0;
     padding: 0;
-} */
+}
 
 .container{
     margin: 0;
@@ -40,7 +40,7 @@
 
 .login-img-fa{
     width: 200px;
-    margin-left: 3.5rem;
+    margin-left: 6.3rem;
     margin-bottom: 1rem;
 }
 
@@ -145,10 +145,17 @@
     }
 }
 
-@media screen and (max-width: 767px) {
-    
-    .login-img img{
-        width: 120%;
+@media screen and (max-width: 767px) { 
+    .kfjd{
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .login{
+        width: 80%;
+        margin: auto;
     }
 
     .login-body{
@@ -160,5 +167,43 @@
 @media screen and (min-width: 1023px) {
     .login-img{
         height: 100vh;
+    }
+}
+
+@media screen and (min-width: 768px)  and (max-width: 838px) {
+    .login-img-fa {
+        margin-left: 2rem !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .login-img-fa{
+        margin-left: 100px;
+    }
+
+    .login-img-fa {
+        margin-left: 34% !important;
+    }    
+}
+
+@media screen and (max-width: 425px) {
+    .kfjd{
+        width: 100%;
+    }
+
+    .login{
+        width: 100%;
+    }
+}    
+
+@media screen and (max-width: 603px) and (min-width: 418px){
+    .login-img-fa {
+        margin-left: 30% !important;
+    }
+}
+
+@media screen and (max-width: 417px) {
+    .login-img-fa {
+        margin-left: 24% !important;
     }
 }
